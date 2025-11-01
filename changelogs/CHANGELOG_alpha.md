@@ -1,3 +1,10 @@
+# [8.3.0-alpha.13](https://github.com/parse-community/parse-server/compare/8.3.0-alpha.12...8.3.0-alpha.13) (2025-11-01)
+
+
+### Bug Fixes
+
+* Indexes `_email_verify_token` for email verification and `_perishable_token` password reset are not created automatically ([#9893](https://github.com/parse-community/parse-server/issues/9893)) ([62dd3c5](https://github.com/parse-community/parse-server/commit/62dd3c565ab70765cb1c547996b616b72e9bb800))
+
 # [8.3.0-alpha.12](https://github.com/parse-community/parse-server/compare/8.3.0-alpha.11...8.3.0-alpha.12) (2025-10-25)
 
 
