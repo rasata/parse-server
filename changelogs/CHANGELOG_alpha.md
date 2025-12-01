@@ -1,3 +1,10 @@
+# [8.5.0-alpha.18](https://github.com/parse-community/parse-server/compare/8.5.0-alpha.17...8.5.0-alpha.18) (2025-12-01)
+
+
+### Features
+
+* Upgrade to parse 7.1.2 ([#9955](https://github.com/parse-community/parse-server/issues/9955)) ([5c644a5](https://github.com/parse-community/parse-server/commit/5c644a55ac25986f214b68ba4bcbe7a62ad6d6d1))
+
 # [8.5.0-alpha.17](https://github.com/parse-community/parse-server/compare/8.5.0-alpha.16...8.5.0-alpha.17) (2025-12-01)
 
 
