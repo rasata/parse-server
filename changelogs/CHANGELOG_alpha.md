@@ -1,3 +1,10 @@
+# [9.1.0-alpha.2](https://github.com/parse-community/parse-server/compare/9.1.0-alpha.1...9.1.0-alpha.2) (2025-12-14)
+
+
+### Features
+
+* Add support for custom HTTP status code and headers to Cloud Function response with Express-style syntax ([#9980](https://github.com/parse-community/parse-server/issues/9980)) ([8eeab8d](https://github.com/parse-community/parse-server/commit/8eeab8dc57edef3751aa188d8247f296a270b083))
+
 # [9.1.0-alpha.1](https://github.com/parse-community/parse-server/compare/9.0.0...9.1.0-alpha.1) (2025-12-14)
 
 
