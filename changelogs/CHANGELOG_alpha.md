@@ -1,3 +1,10 @@
+# [9.1.0-alpha.4](https://github.com/parse-community/parse-server/compare/9.1.0-alpha.3...9.1.0-alpha.4) (2025-12-14)
+
+
+### Features
+
+* Log more debug info when failing to set duplicate value for field with unique values ([#9919](https://github.com/parse-community/parse-server/issues/9919)) ([a23b192](https://github.com/parse-community/parse-server/commit/a23b1924668920f3c92fec0566b57091d0e8aae8))
+
 # [9.1.0-alpha.3](https://github.com/parse-community/parse-server/compare/9.1.0-alpha.2...9.1.0-alpha.3) (2025-12-14)
 
 
