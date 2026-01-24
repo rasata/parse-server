@@ -1,3 +1,10 @@
+# [9.2.0-alpha.2](https://github.com/parse-community/parse-server/compare/9.2.0-alpha.1...9.2.0-alpha.2) (2026-01-24)
+
+
+### Bug Fixes
+
+* MongoDB timeout errors unhandled and potentially revealing internal data ([#10020](https://github.com/parse-community/parse-server/issues/10020)) ([1d3336d](https://github.com/parse-community/parse-server/commit/1d3336d128671c974b419b9b34db35ada7d1a44d))
+
 # [9.2.0-alpha.1](https://github.com/parse-community/parse-server/compare/9.1.1...9.2.0-alpha.1) (2026-01-24)
 
 
