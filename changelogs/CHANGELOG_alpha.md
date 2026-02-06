@@ -1,3 +1,10 @@
+# [9.3.0-alpha.1](https://github.com/parse-community/parse-server/compare/9.2.1-alpha.2...9.3.0-alpha.1) (2026-02-06)
+
+
+### Features
+
+* Add event information to `verifyUserEmails`, `preventLoginWithUnverifiedEmail` to identify invoking signup / login action and auth provider ([#9963](https://github.com/parse-community/parse-server/issues/9963)) ([ed98c15](https://github.com/parse-community/parse-server/commit/ed98c15f90f2fa6a66780941fd3705b805d6eb14))
+
 ## [9.2.1-alpha.2](https://github.com/parse-community/parse-server/compare/9.2.1-alpha.1...9.2.1-alpha.2) (2026-02-06)
 
 
