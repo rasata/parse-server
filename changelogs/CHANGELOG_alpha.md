@@ -1,3 +1,10 @@
+# [9.3.0-alpha.2](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.1...9.3.0-alpha.2) (2026-02-06)
+
+
+### Bug Fixes
+
+* Default HTML pages for password reset, email verification not found ([#10041](https://github.com/parse-community/parse-server/issues/10041)) ([a4265bb](https://github.com/parse-community/parse-server/commit/a4265bb1241551b7147e8aee08c36e1f8ab09ba4))
+
 # [9.3.0-alpha.1](https://github.com/parse-community/parse-server/compare/9.2.1-alpha.2...9.3.0-alpha.1) (2026-02-06)
 
 
