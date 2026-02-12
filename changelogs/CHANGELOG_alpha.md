@@ -1,3 +1,10 @@
+# [9.3.0-alpha.5](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.4...9.3.0-alpha.5) (2026-02-12)
+
+
+### Bug Fixes
+
+* `Parse.Query.select('authData')` for `_User` class doesn't return auth data ([#10055](https://github.com/parse-community/parse-server/issues/10055)) ([44a5bb1](https://github.com/parse-community/parse-server/commit/44a5bb105e11e6918e899e0f1427b0adb38d6d67))
+
 # [9.3.0-alpha.4](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.3...9.3.0-alpha.4) (2026-02-12)
 
 
