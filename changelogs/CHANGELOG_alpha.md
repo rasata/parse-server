@@ -1,3 +1,10 @@
+# [9.3.0-alpha.6](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.5...9.3.0-alpha.6) (2026-02-14)
+
+
+### Bug Fixes
+
+* Default ACL overwrites custom ACL on `Parse.Object` update ([#10061](https://github.com/parse-community/parse-server/issues/10061)) ([4ef89d9](https://github.com/parse-community/parse-server/commit/4ef89d912c08bb24500a4d4142a3220f024a2d34))
+
 # [9.3.0-alpha.5](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.4...9.3.0-alpha.5) (2026-02-12)
 
 
