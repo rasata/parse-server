@@ -1,3 +1,80 @@
+# [9.3.0-alpha.9](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.8...9.3.0-alpha.9) (2026-02-21)
+
+
+### Features
+
+* Add support for streaming file upload via `Buffer`, `Readable`, `ReadableStream` ([#10065](https://github.com/parse-community/parse-server/issues/10065)) ([f0feb48](https://github.com/parse-community/parse-server/commit/f0feb48d0fb697a161693721eadd09d740336283))
+
+# [9.3.0-alpha.8](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.7...9.3.0-alpha.8) (2026-02-21)
+
+
+### Bug Fixes
+
+* Incorrect dependency chain of `Parse` uses browser build instead of Node build ([#10067](https://github.com/parse-community/parse-server/issues/10067)) ([1a2521d](https://github.com/parse-community/parse-server/commit/1a2521d930b855845aa13fde700b2e8170ff65a1))
+
+# [9.3.0-alpha.7](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.6...9.3.0-alpha.7) (2026-02-20)
+
+
+### Features
+
+* Upgrade to parse 8.2.0, @parse/push-adapter 8.3.0 ([#10066](https://github.com/parse-community/parse-server/issues/10066)) ([8b5a14e](https://github.com/parse-community/parse-server/commit/8b5a14ecaf0b58b899651fb97d43e0e5d9be506d))
+
+# [9.3.0-alpha.6](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.5...9.3.0-alpha.6) (2026-02-14)
+
+
+### Bug Fixes
+
+* Default ACL overwrites custom ACL on `Parse.Object` update ([#10061](https://github.com/parse-community/parse-server/issues/10061)) ([4ef89d9](https://github.com/parse-community/parse-server/commit/4ef89d912c08bb24500a4d4142a3220f024a2d34))
+
+# [9.3.0-alpha.5](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.4...9.3.0-alpha.5) (2026-02-12)
+
+
+### Bug Fixes
+
+* `Parse.Query.select('authData')` for `_User` class doesn't return auth data ([#10055](https://github.com/parse-community/parse-server/issues/10055)) ([44a5bb1](https://github.com/parse-community/parse-server/commit/44a5bb105e11e6918e899e0f1427b0adb38d6d67))
+
+# [9.3.0-alpha.4](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.3...9.3.0-alpha.4) (2026-02-12)
+
+
+### Bug Fixes
+
+* Unlinking auth provider triggers auth data validation ([#10045](https://github.com/parse-community/parse-server/issues/10045)) ([b6b6327](https://github.com/parse-community/parse-server/commit/b6b632755263417c2a3c3a31381eedc516723740))
+
+# [9.3.0-alpha.3](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.2...9.3.0-alpha.3) (2026-02-07)
+
+
+### Features
+
+* Add `Parse.File.url` validation with config `fileUpload.allowedFileUrlDomains` against SSRF attacks ([#10044](https://github.com/parse-community/parse-server/issues/10044)) ([4c9c948](https://github.com/parse-community/parse-server/commit/4c9c9489f062bec6d751b23f4a68aea2a63936bd))
+
+# [9.3.0-alpha.2](https://github.com/parse-community/parse-server/compare/9.3.0-alpha.1...9.3.0-alpha.2) (2026-02-06)
+
+
+### Bug Fixes
+
+* Default HTML pages for password reset, email verification not found ([#10041](https://github.com/parse-community/parse-server/issues/10041)) ([a4265bb](https://github.com/parse-community/parse-server/commit/a4265bb1241551b7147e8aee08c36e1f8ab09ba4))
+
+# [9.3.0-alpha.1](https://github.com/parse-community/parse-server/compare/9.2.1-alpha.2...9.3.0-alpha.1) (2026-02-06)
+
+
+### Features
+
+* Add event information to `verifyUserEmails`, `preventLoginWithUnverifiedEmail` to identify invoking signup / login action and auth provider ([#9963](https://github.com/parse-community/parse-server/issues/9963)) ([ed98c15](https://github.com/parse-community/parse-server/commit/ed98c15f90f2fa6a66780941fd3705b805d6eb14))
+
+## [9.2.1-alpha.2](https://github.com/parse-community/parse-server/compare/9.2.1-alpha.1...9.2.1-alpha.2) (2026-02-06)
+
+
+### Bug Fixes
+
+* AuthData validation incorrectly triggered on unchanged providers ([#10025](https://github.com/parse-community/parse-server/issues/10025)) ([d3d6e9e](https://github.com/parse-community/parse-server/commit/d3d6e9e22a212885690853cbbb84bb8c53da5646))
+
+## [9.2.1-alpha.1](https://github.com/parse-community/parse-server/compare/9.2.0...9.2.1-alpha.1) (2026-02-06)
+
+
+### Bug Fixes
+
+* Default HTML pages for password reset, email verification not found ([#10034](https://github.com/parse-community/parse-server/issues/10034)) ([e299107](https://github.com/parse-community/parse-server/commit/e29910764daef3c03ed1b09eee19cedc3b12a86a))
+
 # [9.2.0-alpha.5](https://github.com/parse-community/parse-server/compare/9.2.0-alpha.4...9.2.0-alpha.5) (2026-02-05)
 
 

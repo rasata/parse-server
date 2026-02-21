@@ -3,7 +3,7 @@ import { randomHexString } from '../cryptoUtils';
 import AdaptableController from './AdaptableController';
 import { validateFilename, FilesAdapter } from '../Adapters/Files/FilesAdapter';
 import path from 'path';
-const Parse = require('parse').Parse;
+const Parse = require('parse/node').Parse;
 
 const legacyFilesRegex = new RegExp(
   '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}-.*'
@@ -27,6 +27,16 @@ export class FilesController extends AdaptableController {
 
     if (!this.options.preserveFileName) {
       filename = randomHexString(32) + '_' + filename;
+    }
+
+    // Fallback: buffer stream for adapters that don't support streaming
+    if (typeof data?.pipe === 'function' && !this.adapter.supportsStreaming) {
+      data = await new Promise((resolve, reject) => {
+        const chunks = [];
+        data.on('data', chunk => chunks.push(chunk));
+        data.on('end', () => resolve(Buffer.concat(chunks)));
+        data.on('error', reject);
+      });
     }
 
     const location = await this.adapter.getFileLocation(config, filename);
